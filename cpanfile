@@ -16,6 +16,7 @@ requires 'Test::Pod::Coverage';
 requires 'Software::License';
 requires 'Module::Setup';
 requires 'ShipIt';
+requires 'ShipIt::Step::ChangeAllVersions';
 requires 'CPAN::Uploader';
 requires 'Encode';
 requires 'App::Ack';
