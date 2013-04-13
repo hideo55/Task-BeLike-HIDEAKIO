@@ -1,24 +1,50 @@
 #!perl
-requires 'perl' => '5.008003';
-
-on 'configure' => sub {
-    requires 'Module::Build::Pluggable';
-    requires 'Module::Build::Pluggable::GithubMeta';
-    requires 'Module::Build::Pluggable::CPANfile';
-};
-
-on 'build' => sub {
-};
-
-on 'test' => sub {
-    requires 'Test::More'     => '0.98';
-};
-
-on 'develop' => sub {
-    requires 'Test::Spelling';
-    requires 'Test::Perl::Critic';
-    requires 'Test::Pod';
-    requires 'Test::Pod::Coverage';
-    requires 'Software::License';
-};
+requires 'perl' => '5.008001';
+requires 'Module::Build::Pluggable';
+requires 'Module::Build::Pluggable::GithubMeta';
+requires 'Module::Build::Pluggable::CPANfile';
+requires 'Module::Build::Pluggable::XSUtil';
+requires 'Test::More'     => '0.98';
+requires 'Test::TCP';
+requires 'Test::Fatal' => '0.008';
+requires 'Test::Deep';
+requires 'Test::Mock::Guard';
+requires 'Test::Spelling';
+requires 'Test::Perl::Critic';
+requires 'Test::Pod';
+requires 'Test::Pod::Coverage';
+requires 'Software::License';
+requires 'Module::Setup';
+requires 'ShipIt';
+requires 'CPAN::Uploader';
+requires 'Encode';
+requires 'App::Ack';
+requires 'App::ph';
+requires 'App::cpanminus';
+requires 'App::cpanoutdated';
+requires 'App::pmuninstall';
+requires 'Class::Accessor::Lite';
+requires 'Moose';
+requires 'Mouse';
+requires 'Moo';
+requires 'Try::Tiny';
+requires 'Furl';
+requires 'JSON';
+requires 'Data::Util';
+requires 'Data::Clone';
+requires 'Text::MicroTemplate::Extended';
+requires 'Text::Xslate';
+requires 'Plack';
+requires 'DateTime';
+requires 'DateTime::Format::Strptime';
+requires 'Path::Class';
+requires 'Path::Tiny';
+requires 'Test::Pretty';
+requires 'Devel::Cover';
+requires 'Devel::NYTProf';
+requires 'Devel::KYTProf';
+requires 'Devel::GlobalDestruction';
+requires 'Perl::Tidy';
+requires 'FormValidator::Lite';
+requires 'OrePAN';
 
