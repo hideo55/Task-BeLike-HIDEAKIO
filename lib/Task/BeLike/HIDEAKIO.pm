@@ -13,19 +13,11 @@ __END__
 
 =head1 NAME
 
-Task::BeLike::HIDEAKIO - [One line description of module's purpose here]
-
-=head1 SYNOPSIS
-
-  use strict;
-  use warnings;
-  use Task::BeLike::HIDEAKIO;
+Task::BeLike::HIDEAKIO -  Modules that HIDEAKIO likes to use.
 
 =head1 DESCRIPTION
 
-=head1 METHODS
-
-=head1 SEE ALSO
+See the cpanfile in this distribution.
 
 =head1 AUTHOR
 
